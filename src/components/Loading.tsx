@@ -1,15 +1,12 @@
 import { useEffect, useState } from "react";
 import "./styles/Loading.css";
 import { useLoading } from "../context/LoadingProvider";
-
 import Marquee from "react-fast-marquee";
-
 const Loading = ({ percent }: { percent: number }) => {
   const { setIsLoading } = useLoading();
   const [loaded, setLoaded] = useState(false);
   const [isLoaded, setIsLoaded] = useState(false);
   const [clicked, setClicked] = useState(false);
-
   if (percent >= 100) {
     setTimeout(() => {
       setLoaded(true);
@@ -18,7 +15,6 @@ const Loading = ({ percent }: { percent: number }) => {
       }, 1000);
     }, 600);
   }
-
   useEffect(() => {
     import("./utils/initialFX").then((module) => {
       if (isLoaded) {
@@ -32,7 +28,6 @@ const Loading = ({ percent }: { percent: number }) => {
       }
     });
   }, [isLoaded]);
-
   function handleMouseMove(e: React.MouseEvent<HTMLElement>) {
     const { currentTarget: target } = e;
     const rect = target.getBoundingClientRect();
@@ -41,12 +36,11 @@ const Loading = ({ percent }: { percent: number }) => {
     target.style.setProperty("--mouse-x", `${x}px`);
     target.style.setProperty("--mouse-y", `${y}px`);
   }
-
   return (
     <>
       <div className="loading-header">
         <a href="/#" className="loader-title" data-cursor="disable">
-          AM
+          PSS
         </a>
         <div className={`loaderGame ${clicked && "loader-out"}`}>
           <div className="loaderGame-container">
@@ -62,8 +56,10 @@ const Loading = ({ percent }: { percent: number }) => {
       <div className="loading-screen">
         <div className="loading-marquee">
           <Marquee>
-            <span> Full Stack Developer</span> <span>Software Engineer</span>
-            <span> Full Stack Developer</span> <span>Software Engineer</span>
+            <span> E-commerce Executive</span> <span>Tech Enthusiast</span>
+            <span> AI & Digital Marketing</span> <span>Web Developer</span>
+            <span> E-commerce Executive</span> <span>Tech Enthusiast</span>
+            <span> AI & Digital Marketing</span> <span>Web Developer</span>
           </Marquee>
         </div>
         <div
@@ -89,12 +85,9 @@ const Loading = ({ percent }: { percent: number }) => {
     </>
   );
 };
-
 export default Loading;
-
 export const setProgress = (setLoading: (value: number) => void) => {
   let percent: number = 0;
-
   let interval = setInterval(() => {
     if (percent <= 50) {
       let rand = Math.round(Math.random() * 5);
@@ -111,12 +104,10 @@ export const setProgress = (setLoading: (value: number) => void) => {
       }, 2000);
     }
   }, 100);
-
   function clear() {
     clearInterval(interval);
     setLoading(100);
   }
-
   function loaded() {
     return new Promise<number>((resolve) => {
       clearInterval(interval);

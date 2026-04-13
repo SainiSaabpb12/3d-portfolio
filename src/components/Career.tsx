@@ -1,5 +1,4 @@
 import "./styles/Career.css";
-
 const Career = () => {
   return (
     <div className="career-section section-container">
@@ -15,58 +14,59 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Co-Founder</h4>
-                <h5>CallHQ.ai</h5>
+                <h4>E-commerce & Operations Executive</h4>
+                <h5>Near-Earth Object · New Delhi</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Building CallHQ.ai, a voice AI platform for
-              automating customer calls, support, and conversions.
+              Developed and managed the official company website nearearthobject.in.
+              Created AI-generated product visuals by placing jewellery on virtual
+              models for marketing. Managed complete operations on Amazon Seller
+              Central, Ajio Luxe, and Myntra Seller Portal. Executed marketing
+              campaigns, monitored sales analytics, and handled inventory,
+              dispatch, and logistics end to end.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Adobe</h4>
-                <h5>6+ years · Noida</h5>
+                <h4>Diploma in Information Technology</h4>
+                <h5>Lal Bahadur Shastri Training Institute</h5>
               </div>
-              <h3>2017–24</h3>
+              <h3>CERT</h3>
             </div>
             <p>
-              Senior Lead Software Engineer (Feb 2024 – May 2024). Lead Software
-              Engineer (Feb 2021 – Feb 2024). Software Engineer II (Dec 2017 –
-              Feb 2021): internationalization, globalization, and localization for
-              Adobe Technical Communication Suite; functional and linguistic testing
-              strategy; in-house tooling; collaboration with product and engineering
-              for high-quality localized releases.
+              Completed a Diploma in Information Technology, building foundational
+              skills in programming, computer systems, and software applications.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Consultant</h4>
-                <h5>Genpact Headstrong </h5>
+                <h4>Bachelor's Degree (Pursuing)</h4>
+                <h5>2nd Year · English Honours</h5>
               </div>
-              <h3>2016–17</h3>
+              <h3>NOW</h3>
             </div>
             <p>
-              Sep 2016 – Nov 2017. Developed and maintained WCF services consumed
-              by the UI; deployment support across environments; NUnit tests and
-              coverage; bug fixes from QA and users; database work.
+              Pursuing English Honours while simultaneously working full-time
+              in tech and e-commerce. Passionate about technology and
+              self-teaching web development, GitHub, React, and AI tools
+              outside of college — because curiosity beats a syllabus.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Sf Engineer</h4>
-                <h5>Infogain</h5>
+                <h4>12th Grade</h4>
+                <h5>NIOS · Delhi</h5>
               </div>
-              <h3>2013-16</h3>
+              <h3>DONE</h3>
             </div>
             <p>
-              Software engineering across enterprise projects, contributing to
-              design, development, and delivery of business applications.
+              Completed 12th Grade from NIOS Delhi, building a foundation for
+              further studies in technology and computer science.
             </p>
           </div>
         </div>
@@ -74,5 +74,4 @@ const Career = () => {
     </div>
   );
 };
-
 export default Career;

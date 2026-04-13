@@ -2,42 +2,39 @@ import { useState, useCallback } from "react";
 import "./styles/Work.css";
 import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
-
 const projects = [
   {
-    title: "CallHQ",
-    category: "Voice AI Calling Platform",
-    tools: "Voice AI, Calling Automation, CRM Integrations",
+    title: "Near-Earth Object",
+    category: "E-commerce Website & Brand",
+    tools: "Website Management, Product Listings, Digital Presence",
     image: "/images/callhq.png",
-    link: "https://callhq.ai",
+    link: "https://nearearthobject.in",
   },
   {
-    title: "Whatsapp Automation",
-    category: "WABA Application",
-    tools: "WhatsApp Business API, Workflow Automation, Notifications",
+    title: "AI Jewellery Visuals",
+    category: "AI-Powered Product Marketing",
+    tools: "AI Visualization, Virtual Model Integration, Video Production",
     image: "/images/whatsapp.png",
-    link: "https://whatsapp.callhq.ai",
+    link: "https://nearearthobject.in",
   },
   {
-    title: "Broki",
-    category: "Real Estate Platform for FnB Industry",
-    tools: "Property Discovery, Lead Management, Marketplace Workflows",
+    title: "Amazon & Marketplace Ops",
+    category: "Multi-Platform Seller Management",
+    tools: "Amazon Seller Central, Ajio Luxe, Myntra Portal, Inventory",
     image: "/images/broki.png",
-    link: "https://broki.in",
+    link: "https://nearearthobject.in",
   },
   {
-    title: "Orrdr.com",
-    category: "Ecommerce Platform and Mobile App",
-    tools: "Ecommerce, Mobile Experience, Order Management",
+    title: "Digital Marketing Campaigns",
+    category: "E-commerce Ads & Analytics",
+    tools: "Ad Campaigns, Sales Analytics, Performance Metrics, Social Media",
     image: "/images/orrdr.png",
-    link: "https://orrdr.com",
+    link: "https://nearearthobject.in",
   },
 ];
-
 const Work = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
-
   const goToSlide = useCallback(
     (index: number) => {
       if (isAnimating) return;
@@ -47,28 +44,23 @@ const Work = () => {
     },
     [isAnimating]
   );
-
   const goToPrev = useCallback(() => {
     const newIndex =
       currentIndex === 0 ? projects.length - 1 : currentIndex - 1;
     goToSlide(newIndex);
   }, [currentIndex, goToSlide]);
-
   const goToNext = useCallback(() => {
     const newIndex =
       currentIndex === projects.length - 1 ? 0 : currentIndex + 1;
     goToSlide(newIndex);
   }, [currentIndex, goToSlide]);
-
   return (
     <div className="work-section" id="work">
       <div className="work-container section-container">
         <h2>
           My <span>Work</span>
         </h2>
-
         <div className="carousel-wrapper">
-          {/* Navigation Arrows */}
           <button
             className="carousel-arrow carousel-arrow-left"
             onClick={goToPrev}
@@ -85,8 +77,6 @@ const Work = () => {
           >
             <MdArrowForward />
           </button>
-
-          {/* Slides */}
           <div className="carousel-track-container">
             <div
               className="carousel-track"
@@ -124,8 +114,6 @@ const Work = () => {
               ))}
             </div>
           </div>
-
-          {/* Dot Indicators */}
           <div className="carousel-dots">
             {projects.map((_, index) => (
               <button
@@ -143,5 +131,4 @@ const Work = () => {
     </div>
   );
 };
-
 export default Work;

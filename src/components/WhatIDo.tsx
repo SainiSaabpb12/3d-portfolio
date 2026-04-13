@@ -1,7 +1,6 @@
 import { useEffect, useRef } from "react";
 import "./styles/WhatIDo.css";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
 const WhatIDo = () => {
   const containerRef = useRef<(HTMLDivElement | null)[]>([]);
   const setRef = (el: HTMLDivElement | null, index: number) => {
@@ -85,22 +84,23 @@ const WhatIDo = () => {
               </svg>
             </div>
             <div className="what-corner"></div>
-
             <div className="what-content-in">
-              <h3>AI & AUTOMATION</h3>
-              <h4>Workflow Intelligence for Organizations</h4>
+              <h3>E-COMMERCE & AI</h3>
+              <h4>Multi-Platform Operations & AI Marketing</h4>
               <p>
-                AI specialist helping organizations automate workflows—internal ops
-                and customer-facing—so teams ship faster with less manual work.
+                Managing end-to-end e-commerce operations across Amazon, Ajio Luxe,
+                and Myntra — from product listings to inventory and dispatch.
+                Using AI tools to create jewellery visuals on virtual models and
+                produce promotional video content for campaigns.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">LLMs &amp; agents</div>
-                <div className="what-tags">Workflow design</div>
-                <div className="what-tags">RAG &amp; retrieval</div>
-                <div className="what-tags">Evals &amp; guardrails</div>
-                <div className="what-tags">Integrations</div>
-                <div className="what-tags">Product strategy</div>
+                <div className="what-tags">Amazon Seller Central</div>
+                <div className="what-tags">Ajio Luxe</div>
+                <div className="what-tags">Myntra Portal</div>
+                <div className="what-tags">AI Visualization</div>
+                <div className="what-tags">Digital Marketing</div>
+                <div className="what-tags">Inventory Management</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -124,21 +124,21 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>BUILD &amp; SCALE</h3>
-              <h4>Shipping AI in Production</h4>
+              <h3>WEB & TECH</h3>
+              <h4>Building & Managing Web Presence</h4>
               <p>
-                I build the systems behind it: APIs, data, voice/real-time, and
-                full-stack products—production-ready, not slide decks.
+                Developed and manage the official company website nearearthobject.in.
+                Learning modern web development with HTML, CSS, JavaScript, React,
+                and Python. Building real projects while studying CS in college.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Node.js</div>
+                <div className="what-tags">HTML & CSS</div>
+                <div className="what-tags">JavaScript</div>
                 <div className="what-tags">Python</div>
-                <div className="what-tags">REST &amp; real-time APIs</div>
-                <div className="what-tags">PostgreSQL</div>
-                <div className="what-tags">MongoDB</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Cloud &amp; infra</div>
+                <div className="what-tags">Java</div>
+                <div className="what-tags">C / C++</div>
+                <div className="what-tags">MS Office</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -148,15 +148,12 @@ const WhatIDo = () => {
     </div>
   );
 };
-
 export default WhatIDo;
-
 function handleClick(container: HTMLDivElement) {
   container.classList.toggle("what-content-active");
   container.classList.remove("what-sibling");
   if (container.parentElement) {
     const siblings = Array.from(container.parentElement.children);
-
     siblings.forEach((sibling) => {
       if (sibling !== container) {
         sibling.classList.remove("what-content-active");
