@@ -42,13 +42,13 @@ const Navbar = () => {
           PSS
         </a>
         <a
-          href="https://www.linkedin.com/in/prabhjotsinghsaini"
+          href="https://www.linkedin.com/in/prabhjot-saini-96ab41298/"
           className="navbar-connect"
           data-cursor="disable"
           target="_blank"
           rel="noreferrer"
         >
-          linkedin.com/in/prabhjotsinghsaini
+          linkedin.com/in/prabhjot-saini-96ab41298/
         </a>
         <ul>
           <li>
