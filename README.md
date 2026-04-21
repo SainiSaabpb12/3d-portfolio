@@ -4,7 +4,7 @@ This repository contains the source code for a personal 3D portfolio built with 
 
 Live site: (https://3d-portfolio-murex-seven.vercel.app/)
 
-![Portfolio Preview](./public/images/preview.png)
+![Portfolio Preview](./public/images/https://drive.google.com/open?id=1FCkjcqRws1Cg5iaZjyiQswqBjeXwiEgJ&usp=drive_copy)
 
 ## Table of Contents
 
