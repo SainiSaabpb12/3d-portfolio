@@ -9,24 +9,17 @@ const Contact = () => {
         <div className="contact-flex">
           <div className="contact-box">
             <h4>Connect</h4>
-            <p>
-              <a
-                href="mailto:prabhjotsaini2303@gmail.com"
-                data-cursor="disable"
-              >
-                prabhjotsaini2303@gmail.com
-              </a>
-            </p>
+            <p>Connect via LinkedIn for work opportunities.</p>
             <h4>Education</h4>
             <p>Bachelor's Degree (Pursuing) — English Honours, 2nd Year</p>
             <p>Diploma in Information Technology — Lal Bahadur Shastri Training Institute</p>
             <p>12th Grade — NIOS, Delhi</p>
           </div>
           <div className="contact-box">
-            <h4>Social</h4>
-            <p style={{ color: "rgba(255,255,255,0.4)", fontSize: "0.9rem" }}>
-              Coming soon — currently building my online presence.
-            </p>
+            <h4>Elsewhere</h4>
+            <p><a href="https://www.linkedin.com/in/prabhjot-saini-96ab41298/" target="_blank" rel="noreferrer">LinkedIn</a></p>
+            <p><a href="https://github.com/SainiSaabpb12" target="_blank" rel="noreferrer">GitHub</a></p>
+            <p><a href="https://wearwildcard.shop" target="_blank" rel="noreferrer">Wear Wild Card</a></p>
           </div>
           <div className="contact-box">
             <h2>
