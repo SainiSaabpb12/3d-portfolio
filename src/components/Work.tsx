@@ -4,32 +4,32 @@ import WorkImage from "./WorkImage";
 import { MdArrowBack, MdArrowForward } from "react-icons/md";
 const projects = [
   {
+    title: "Wear Wild Card",
+    category: "Shopify Storefront & Brand Operations",
+    tools: "Shopify Setup, Theme Customization, Product Catalogues, Meta Ads",
+    image: "/images/orrdr.png",
+    link: "https://wearwildcard.shop",
+  },
+  {
     title: "Near-Earth Object",
-    category: "E-commerce Website & Brand",
-    tools: "Website Management, Product Listings, Digital Presence",
+    category: "E-commerce Website & Marketplace Operations",
+    tools: "Website Management, Amazon, Myntra, AJIO Luxe, Inventory",
     image: "/images/callhq.png",
     link: "https://nearearthobject.in",
   },
   {
-    title: "AI Jewellery Visuals",
-    category: "AI-Powered Product Marketing",
-    tools: "AI Visualization, Virtual Model Integration, Video Production",
+    title: "AI Product Content",
+    category: "Jewellery Visuals & Campaign Assets",
+    tools: "Virtual-Model Imagery, Promotional Video, Creative Production",
     image: "/images/whatsapp.png",
     link: "https://nearearthobject.in",
   },
   {
-    title: "Amazon & Marketplace Ops",
-    category: "Multi-Platform Seller Management",
-    tools: "Amazon Seller Central, Ajio Luxe, Myntra Portal, Inventory",
+    title: "Commerce Automations",
+    category: "Chatbots & Voice-Agent Workflows",
+    tools: "n8n, WhatsApp, Telegram, Vapi.ai",
     image: "/images/broki.png",
-    link: "https://nearearthobject.in",
-  },
-  {
-    title: "Digital Marketing Campaigns",
-    category: "E-commerce Ads & Analytics",
-    tools: "Ad Campaigns, Sales Analytics, Performance Metrics, Social Media",
-    image: "/images/orrdr.png",
-    link: "https://nearearthobject.in",
+    link: "https://github.com/SainiSaabpb12",
   },
 ];
 const Work = () => {
