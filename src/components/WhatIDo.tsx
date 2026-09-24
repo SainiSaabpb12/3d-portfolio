@@ -85,21 +85,18 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>E-COMMERCE & AI</h3>
-              <h4>Multi-Platform Operations & AI Marketing</h4>
+              <h3>MARKETPLACES & MARKETING</h3>
+              <h4>Marketplace Operations & Meta Ads</h4>
               <p>
-                Managing end-to-end e-commerce operations across Amazon, Ajio Luxe,
-                and Myntra — from product listings to inventory and dispatch.
-                Using AI tools to create jewellery visuals on virtual models and
-                produce promotional video content for campaigns.
+                Manage listings, inventory, orders and promotions across Amazon, AJIO Luxe and Myntra. Plan Meta ads and create campaign visuals for Wear Wild Card, while using AI tools for product imagery and video content.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
                 <div className="what-tags">Amazon Seller Central</div>
                 <div className="what-tags">Ajio Luxe</div>
                 <div className="what-tags">Myntra Portal</div>
-                <div className="what-tags">AI Visualization</div>
-                <div className="what-tags">Digital Marketing</div>
+                <div className="what-tags">Meta Ads</div>
+                <div className="what-tags">AI Creative Tools</div>
                 <div className="what-tags">Inventory Management</div>
               </div>
               <div className="what-arrow"></div>
@@ -124,21 +121,19 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>WEB & TECH</h3>
-              <h4>Building & Managing Web Presence</h4>
+              <h3>SHOPIFY & AUTOMATION</h3>
+              <h4>Storefronts, Themes & Workflows</h4>
               <p>
-                Developed and manage the official company website nearearthobject.in.
-                Learning modern web development with HTML, CSS, JavaScript, React,
-                and Python. Building real projects while studying CS in college.
+                Built and manage the Wear Wild Card Shopify storefront and the Near-Earth Object website. Customize Shopify themes and front-end code, manage catalogues and collections, and build n8n WhatsApp and Telegram chatbot workflows and Vapi.ai voice-agent flows.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">HTML & CSS</div>
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">Python</div>
-                <div className="what-tags">Java</div>
-                <div className="what-tags">C / C++</div>
-                <div className="what-tags">MS Office</div>
+                <div className="what-tags">Shopify</div>
+                <div className="what-tags">Theme / HTML Editing</div>
+                <div className="what-tags">n8n</div>
+                <div className="what-tags">Vapi.ai</div>
+                <div className="what-tags">Catalogue Management</div>
+                <div className="what-tags">Store Operations</div>
               </div>
               <div className="what-arrow"></div>
             </div>

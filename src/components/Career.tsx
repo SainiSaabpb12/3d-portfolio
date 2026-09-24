@@ -15,17 +15,24 @@ const Career = () => {
             <div className="career-info-in">
               <div className="career-role">
                 <h4>E-commerce & Operations Executive</h4>
-                <h5>Near-Earth Object · New Delhi</h5>
+                <h5>Near-Earth Object · New Delhi · Jan 2025 – Present</h5>
               </div>
               <h3>NOW</h3>
             </div>
             <p>
-              Developed and managed the official company website nearearthobject.in.
-              Created AI-generated product visuals by placing jewellery on virtual
-              models for marketing. Managed complete operations on Amazon Seller
-              Central, Ajio Luxe, and Myntra Seller Portal. Executed marketing
-              campaigns, monitored sales analytics, and handled inventory,
-              dispatch, and logistics end to end.
+              Manage product catalogues, pricing, inventory, orders, dispatch and promotions across Amazon Seller Central, Myntra and AJIO Luxe. Built and manage the company e-commerce website, create AI-assisted jewellery visuals and promotional videos, and build n8n chatbot workflows and Vapi.ai voice-agent flows.
+            </p>
+          </div>
+          <div className="career-info-box">
+            <div className="career-info-in">
+              <div className="career-role">
+                <h4>Founder / E-commerce & Digital Operations</h4>
+                <h5>Wear Wild Card · Shopify streetwear brand</h5>
+              </div>
+              <h3>NOW</h3>
+            </div>
+            <p>
+              Built and manage wearwildcard.shop, including product pages, collections, inventory and storefront operations. Customize Shopify themes and front-end code, and create Meta ad campaigns, creatives and conversion-focused product promotions.
             </p>
           </div>
           <div className="career-info-box">
@@ -50,10 +57,7 @@ const Career = () => {
               <h3>NOW</h3>
             </div>
             <p>
-              Pursuing English Honours while simultaneously working full-time
-              in tech and e-commerce. Passionate about technology and
-              self-teaching web development, GitHub, React, and AI tools
-              outside of college — because curiosity beats a syllabus.
+              Pursuing English Honours while working in e-commerce and developing hands-on skills in Shopify, advertising, automation and web development.
             </p>
           </div>
           <div className="career-info-box">
@@ -66,7 +70,7 @@ const Career = () => {
             </div>
             <p>
               Completed 12th Grade from NIOS Delhi, building a foundation for
-              further studies in technology and computer science.
+              further study and professional work.
             </p>
           </div>
         </div>
