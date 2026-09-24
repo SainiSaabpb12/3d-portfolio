@@ -5,13 +5,7 @@ const About = () => {
       <div className="about-me">
         <h3 className="title">About Me</h3>
         <p className="para">
-          I am a 2nd year English Honours student who is deeply passionate about
-          tech — self-taught, hands-on, and always building. By day I work as
-          an E-commerce & Operations Executive at Near-Earth Object, a fashion
-          and jewellery brand in New Delhi, where I develop websites, run
-          AI-powered marketing campaigns, and manage operations across Amazon,
-          Ajio Luxe, and Myntra. I believe you don't need a CS degree to build
-          real things — just curiosity and the drive to figure it out.
+          I'm a marketplace and e-commerce professional based in New Delhi. Since January 2025, I've managed Amazon Seller Central, Myntra and AJIO Luxe operations at Near-Earth Object, from catalogues and inventory to orders, dispatch and sales reporting. I also built and manage its e-commerce website. As the founder of Wear Wild Card, I built and run the Shopify storefront, customize its theme and code, and create Meta ads and product campaigns. I use n8n, AI creative tools and Vapi.ai to make everyday workflows more effective.
         </p>
       </div>
     </div>
